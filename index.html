@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Klick Chaos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-white">
+
+<div class="w3-content" style="max-width:1600px">
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="lambo.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Klick Chaos</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>PHOTOGRAPHY</b></h1>
+      <h6><button class="w3-button w3-dark-grey w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <div class="w3-row w3-padding w3-border">
+    <div class="w3-col l8 s12">
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+        </div>
+
+        <div class="w3-justify">
+          <img src="travis.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+        </div>
+
+        <div class="w3-justify">
+          <img src="wedding.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+        </div>
+      </div>
+
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+        </div>
+
+        <div class="w3-justify">
+          <img src="kristen.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l4">
+      <div class="w3-white w3-margin"><br>
+        <div class="w3-container w3-light-grey">
+          <h4><i>Framing life through a lens</i></h4>
+          <p>Klick Chaos is a professional photography business that specializes in creating captivating images for various clients. Utilizing cutting-edge equipment and techniques, Klick Chaos takes pride in designing photos that are truly unparalleled in their beauty and quality. Through a combination of artistic vision and technical expertise, Klick Chaos produces images that capture the essence of any subject matter - from personal portraits to commercial advertisements. Whether you are seeking to commemorate a special occasion or promote your brand, Klick Chaos can help you achieve your goals with an exceptional level of professionalism, creativity, and innovation.</p>
+        </div>
+      </div>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="jaden.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Jaden Smith</span>
+            <br>
+            <span><i>Louis Vuitton</i></span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="kendall.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Kendall Jenner</span>
+            <br>
+            <span><i>Fendi</i></span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="gigi.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Gigi Hadid</span>
+            <br>
+            <span><i>Versace</i></span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="harry.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Harry Styles</span>
+            <br>
+            <span><i>Gucci</i></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-square w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="E-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-dark-dark-grey">Subscribe</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Stay up-to-date with our latest content by subscribing.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-dark-dark-grey w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-container w3-dark-grey" style="padding:10px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Back to the top</a>
+  <p>&copy;Pinterest</p>
+</footer>
+
+</body>
+</html>
